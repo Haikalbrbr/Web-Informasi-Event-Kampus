@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: #0a00c7;
+    background: linear-gradient(90deg, rgba(10, 0, 199, 1) 0%, rgba(0, 151, 245, 1) 49%);
+}
+
+#login-btn:hover {
+    color: #f4f4f4;
+}
+
+/*sidebar*/
+
+ul li a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding-left: 15px;
+}
+
+ul li a:hover {
+    background-color: #807bde;
+    border-radius: 5px;
+
+}
+
+.carousel-item img {
+     height: 80vh;
+    object-fit: cover;
+}
+
+body {
+    padding-top: 13px;
+}
+
+/*foto anggota*/
+
+.arkpoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
